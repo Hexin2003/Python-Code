@@ -7,4 +7,3 @@ pay = str(pay)
 print("Pay: " + pay )
 
 
-#Check
