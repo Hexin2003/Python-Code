@@ -3,10 +3,7 @@ count = 0
 for line in fhand:
     if not line.startswith('From '):
         continue
-    #print(line)
-    #line = line.rstrip
     words = line.split(' ')
-    #print(words)
     if len(words) == 0: continue
     sender = words[1]
     print(sender)
