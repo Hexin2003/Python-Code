@@ -1,7 +1,7 @@
 total = 0
 count = 0
 avg = None
-while True == True:
+while True:
     num = None
     num = input("Enter a Number: ")
     if num == "done":
